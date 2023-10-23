@@ -1,0 +1,59 @@
+body{
+    font-family: 'Barlow', sans-serif;
+    
+}
+
+.cen{
+    margin-top: 40px;
+    text-align: center;
+}
+.cen h1{
+    margin-top: 20px;
+}
+.cen p{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+}.parallax-window {
+    height: 350px;
+    text-align: center;
+    
+}
+.emty{
+    height: 200px;
+}
+.para{
+    padding: 150px;
+    color: white;
+
+}
+.content{
+    text-align: center;
+    padding: 50px;
+}
+.content h1{
+    margin-top: 50px;
+}
+footer{
+    height: 70px;
+    background: rgb(0, 0, 0);
+    color: red;
+    padding: 20px 50px;
+}
+footer a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+
+.right{
+    float: right;
+}
+@media(max-width:720px){
+    .para h1{
+        
+        font-size: 20px;
+    }
+    .para{
+        padding: 90px;
+    }
+}
